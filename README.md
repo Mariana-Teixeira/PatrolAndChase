@@ -1,7 +1,7 @@
 # PatrolAndChase
 
 This Unity Project demonstrates the use of a Finite State Machine model for developing a simple Patrol and Chase AI that can be expanded to other behaviors.
-It was developed during 2022, currently using Unity's version 2021.3.16f1, to study and cement my understanding of the Finite State Machine model.
+It was developed, using Unity's version 2021.3.16f1, to study and cement my understanding of the Finite State Machine model.
 
 The functionality of the Finite State Machine depends on a PatrolController component. Every state class (e.g "Patrol", "Chase") must have access to properties and functions of the PatrolController component (e.g "MoveThroughWaypoint()", "IsTargetInFOV"), including other state objects they can transition to.
 
